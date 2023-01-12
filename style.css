@@ -158,3 +158,26 @@ a:hover {
     font-size: small;
   }
 }
+
+@media(max-height: 766px) {
+  input {
+    padding: 0.5rem
+  }
+
+  #keys button {
+    font-size: 1rem;
+  }
+
+  #keys {
+    gap: 0.7rem;
+  }
+
+  #copyToClipboard {
+    height: 3.25rem;
+  }
+
+  .footer {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
